@@ -118,12 +118,12 @@ app.post('/upload', function(req, res) {
     // var reference = getref();
     // postref(reference);
     // var Fils = getfil();
-    var blah;
+    var h;
     const result = getOptionsFromDataFils(7);
     result.then(res => {
-    blah = res;
+    h = res;
     })
-    console.log(blah);
+    console.log(h);
     // RechercheFils(Fils, reference)
   });
 
